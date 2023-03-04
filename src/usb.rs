@@ -15,6 +15,8 @@ use crate::{
 static TARGET_DEVICES: &[(u16, u16)] = &[
 	(0x258a, 0x0033), // Model D
 	(0x258a, 0x0036), // Model O
+	(0x258a, 0x2022), // Model O Wireless
+	(0x258a, 0x2011), // Model O Wireless with USB-C cable
 ];
 
 /// Finds a device matching one of [`TARGET_DEVICES`].
